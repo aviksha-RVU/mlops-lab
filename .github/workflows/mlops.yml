@@ -17,4 +17,4 @@ jobs:
 
       - run: pip install scikit-learn numpy matplotlib pandas numpy 
 
-      - run: python decissiontree.py
+      - run: python svm.py
