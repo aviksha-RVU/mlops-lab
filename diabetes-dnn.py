@@ -19,8 +19,8 @@ x=df.drop('diabetes',axis=1)
 y=df['diabetes']
 model = Sequential()
 model.add(Dense(500, activation='relu', input_dim=2))
+model.add(Dense(200, activation='relu'))
 model.add(Dense(100, activation='relu'))
-model.add(Dense(50, activation='relu'))
 model.add(Dense(1, activation='sigmoid'))
 
 # Compile the model
