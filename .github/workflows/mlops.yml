@@ -15,6 +15,6 @@ jobs:
         with:
           python-version: 3.9
 
-      - run: pip install scikit-learn numpy matplotlib pandas numpy 
+      - run: pip install scikit-learn numpy matplotlib pandas numpy keras
 
       - run: python diabetes-dnn.py
