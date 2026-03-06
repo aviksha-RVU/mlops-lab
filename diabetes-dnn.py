@@ -28,5 +28,5 @@ model.compile(optimizer='adam',
               loss='binary_crossentropy', 
               metrics=['accuracy'])
 model.fit(x,y, epochs=100)
-X_marks=[[45,63]]
-print(model.predict(X_marks))
+x_marks = np.array([[45,63]])
+print(model.predict(x_marks))
